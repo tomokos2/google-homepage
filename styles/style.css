@@ -40,6 +40,13 @@
     height: 34px;
 }
 
+#buttons-wrap {
+    padding-top: 18px;
+    top: 53 px;
+    z-index: 0;
+    width: 487px;
+}
+
 .mag-icon-wrap {
     display: flex;
     align-items: center;
@@ -88,6 +95,36 @@
 
 .input:focus {
     outline: none;
+}
+
+.button {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    margin: 11px 4px;
+    box-shadow: none;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #5f6368;
+    outline: none;
+}
+
+.button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 div {
