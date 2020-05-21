@@ -1,4 +1,10 @@
-# google-homepage
+# Practice Google Homepage
 HTML/CSS practice to deconstruct and rebuild the google homepage (without functionality)
 
-[link to mock-google-homepage](https://tomokos2.github.io/google-homepage/)
+[Link to mock-google-homepage](https://tomokos2.github.io/google-homepage/)
+
+### Motive
+* Practice basic formatting
+* Practice class deconstruction
+* Establish practice of HTML/CSS style
+* Learn webpage project structure
