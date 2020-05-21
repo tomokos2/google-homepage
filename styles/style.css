@@ -40,21 +40,6 @@
     height: 34px;
 }
 
-#mic-icon {
-    height: 20px;
-    cursor: pointer;
-}
-
-#mag-glass-icon {
-    height: 14px;
-    width: 14px;
-}
-
-.search-icon {
-    display: flex;
-    margin: auto;
-}
-
 .mag-icon-wrap {
     display: flex;
     align-items: center;
@@ -71,6 +56,21 @@
     width: 24px;
     line-height: 44px;
     margin-top: -5px;
+}
+
+.search-icon {
+    display: flex;
+    margin: auto;
+}
+
+#mic-icon {
+    height: 20px;
+    cursor: pointer;
+}
+
+#mag-glass-icon {
+    height: 14px;
+    width: 14px;
 }
 
 .input {
