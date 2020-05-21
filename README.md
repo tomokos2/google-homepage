@@ -8,3 +8,6 @@ HTML/CSS practice to deconstruct and rebuild the google homepage (without functi
 * Practice class deconstruction
 * Establish practice of HTML/CSS style
 * Learn webpage project structure
+
+### Stretch Goal
+* Add google search page
