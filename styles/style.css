@@ -1,3 +1,13 @@
+#hbar-wrap {
+    margin-top: 7px;
+}
+
+#apps-icon {
+    width: 20px;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
 #logo {
     height: 92px;
     width: 272px;
@@ -70,9 +80,13 @@
     margin: auto;
 }
 
-#mic-icon {
-    height: 20px;
+.icon:hover {
     cursor: pointer;
+}
+
+#mic-icon {
+    width: auto;
+    height: 20px;
 }
 
 #mag-glass-icon {
@@ -84,14 +98,41 @@
     margin-top: 7px;
 }
 
-#fl {
+#bar-l {
     margin-left: 30px;
     float: left;
 }
 
-#fr {
+#bar-r {
     margin-right: 30px;
     float: right;
+}
+
+.circle {
+    background-color: #FFC0CB;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    float: right;
+    font-size: 20px;
+
+    text-align: center;
+    text-justify: start;
+}
+
+.bar {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    line-height: 40px;
+    min-width: 980px;
+    max-height: 45px;
+}
+
+.hbar {
+    top: 20px;
+    align-items: center;
 }
 
 .input {
@@ -142,15 +183,8 @@
 }
 
 .fbar {
-    position: absolute;
     bottom: 0px;
-    width: 100%;
-    height: 45px;
-
     background: #f2f2f2;
-    line-height: 40px;
-    min-width: 980px;
-    max-height: 45px;
     border-top: 1px solid #e4e4e4;
 }
 
@@ -164,13 +198,13 @@
     margin-right: 20px;
 }
 
-.f-link {
+.link {
     color: #5f6368;
     text-decoration: none;
     white-space: nowrap;
 }
 
-.f-link:hover {
+.link:hover {
     text-decoration: underline;
 }
 
@@ -185,3 +219,4 @@ body {
 center {
     text-align: -webkit-center;
 }
+
